@@ -7,9 +7,9 @@ public class GuessingGame {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String targetName = "Emma";
+        String targetName = "Emma"; // The name to be guessed
         String guess;
-        int attempts = 0;
+        int attempts = 0; // Count of guessing attempts
 
         print("Guess my name (type stop to exit)");
 
