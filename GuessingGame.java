@@ -17,7 +17,7 @@ public class GuessingGame {
             guess = scanner.nextLine();
             attempts++;
 
-            if (guess.equalsIgnoreCase(targetName)) {
+            if (guess.equalsIgnoreCase(targetName)) { // If the guess matches the target name (case-insensitive)
                 print("Congratulations!");
 
                 print("You guessed " + attempts  + " times.");
