@@ -31,6 +31,6 @@ public class GuessingGame {
             }
         }
 
-        scanner.close();
+        scanner.close()
     }
 }
