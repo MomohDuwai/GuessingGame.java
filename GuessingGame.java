@@ -27,7 +27,7 @@ public class GuessingGame {
                print("You guessed " + (attempts -1) + " times.");
                 break;
             } else {
-                print("Guess my name (type stop to exit)");
+                print("Guess my name (type stop to exit)"); // This will print out a response by guessing the player name
             }
         }
 
